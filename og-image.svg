@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080B18"/>
+
+  <!-- grid -->
+  <line x1="0" y1="157" x2="1200" y2="157" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+  <line x1="0" y1="472" x2="1200" y2="472" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+  <line x1="300" y1="0" x2="300" y2="630" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+  <line x1="900" y1="0" x2="900" y2="630" stroke="#7C3AED" stroke-width="0.6" stroke-dasharray="6,12" opacity="0.25"/>
+
+  <!-- glows -->
+  <ellipse cx="1050" cy="120" rx="280" ry="180" fill="#6025C5" opacity="0.22"/>
+  <ellipse cx="160" cy="530" rx="240" ry="160" fill="#D4AF37" opacity="0.13"/>
+
+  <!-- logo box -->
+  <rect x="72" y="72" width="90" height="90" rx="22" fill="#7C3AED"/>
+  <text x="117" y="141" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="52" font-weight="900" fill="#D4AF37">م</text>
+
+  <!-- brand -->
+  <text x="180" y="132" font-family="Tajawal, Arial, sans-serif" font-size="48" font-weight="900" fill="#9B5DFF">مسار</text>
+  <text x="318" y="132" font-family="Tajawal, Arial, sans-serif" font-size="48" font-weight="900" fill="#EEF2FF">ك</text>
+
+  <!-- divider -->
+  <line x1="72" y1="192" x2="1128" y2="192" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
+
+  <!-- main headline -->
+  <text x="1128" y="300" text-anchor="end" font-family="Tajawal, Arial, sans-serif" font-size="62" font-weight="900" fill="#EEF2FF">CV احترافي يفتحلك باب أي وظيفة</text>
+
+  <!-- sub -->
+  <text x="1128" y="368" text-anchor="end" font-family="Tajawal, Arial, sans-serif" font-size="28" font-weight="400" fill="#8892B0">متوافق مع ATS · تسليم 48 ساعة · ضمان استرداد كامل</text>
+
+  <!-- stats -->
+  <rect x="72" y="430" width="240" height="90" rx="14" fill="#111830" stroke="#7C3AED" stroke-width="1"/>
+  <text x="192" y="468" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="34" font-weight="900" fill="#9B5DFF">+500</text>
+  <text x="192" y="503" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="18" fill="#8892B0">عميل راضي</text>
+
+  <rect x="340" y="430" width="240" height="90" rx="14" fill="#111830" stroke="#7C3AED" stroke-width="1"/>
+  <text x="460" y="468" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="34" font-weight="900" fill="#D4AF37">95%</text>
+  <text x="460" y="503" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="18" fill="#8892B0">نجاح ATS</text>
+
+  <rect x="608" y="430" width="240" height="90" rx="14" fill="#111830" stroke="#D4AF37" stroke-width="1"/>
+  <text x="728" y="468" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="34" font-weight="900" fill="#D4AF37">48h</text>
+  <text x="728" y="503" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="18" fill="#8892B0">وقت التسليم</text>
+
+  <rect x="876" y="430" width="240" height="90" rx="14" fill="#111830" stroke="#7C3AED" stroke-width="1"/>
+  <text x="996" y="468" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="34" font-weight="900" fill="#9B5DFF">4.9 ★</text>
+  <text x="996" y="503" text-anchor="middle" font-family="Tajawal, Arial, sans-serif" font-size="18" fill="#8892B0">متوسط التقييم</text>
+
+  <!-- url -->
+  <text x="600" y="598" text-anchor="middle" font-family="monospace, Arial, sans-serif" font-size="20" fill="#556080">masarakeg.github.io/masarak</text>
+</svg>
