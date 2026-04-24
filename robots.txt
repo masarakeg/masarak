@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# ملف الخريطة
+Sitemap: https://masarakeg.github.io/masarak/sitemap.xml
+
+# حظر الملفات غير الضرورية
+Disallow: /.git/
+Disallow: /node_modules/

@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080B18">
+<title>مسارك — CV احترافي + البحث عن وظايف | مصر 2026</title>
+<meta name="description" content="مسارك — خبراء CV احترافي متوافق مع ATS + خدمة البحث عن وظايف. +500 عميل. تسليم 48 ساعة. ضمان استرداد. من 179ج فقط.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%237C3AED'/><stop offset='1' stop-color='%23D4AF37'/></linearGradient></defs><rect width='100' height='100' rx='20' fill='%23080B18'/><text x='50' y='70' text-anchor='middle' font-size='52' font-family='sans-serif' fill='url(%23g)'>م</text></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "مسارك — كتابة CV احترافي ووظايف",
+  "description": "خبراء كتابة CV احترافي ATS + خدمة البحث عن وظايف في مصر والخليج",
+  "telephone": "+201126104846",
+  "priceRange": "179 - 699 جنيه",
+  "currenciesAccepted": "EGP",
+  "areaServed": ["Egypt","Saudi Arabia","United Arab Emirates","Kuwait"],
+  "aggregateRating": {"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"127","bestRating":"5"}
+}
+</script>
+
+<style>
+/* ═══════════════════════════════════════════
+   ROOT TOKENS — Navy/Purple/Gold
+═══════════════════════════════════════════ */
+:root {
+  --bg:        #080B18;
+  --bg2:       #0D1125;
+  --bg3:       #111830;
+  --bg4:       #16203A;
+  --bg5:       #1C2845;
+
+  --purple:    #7C3AED;
+  --purple2:   #9B5DFF;
+  --purple3:   #6025C5;
+  --purple-dim:#4C1D95;
+
+  --gold:      #D4AF37;
+  --gold2:     #F0D060;
+  --gold3:     #B8960C;
+  --gold-dim:  rgba(212,175,55,0.15);
+
+  --navy-hl:   #3B82F6;
+  --teal:      #06B6D4;
+
+  --white:     #EEF2FF;
+  --white2:    #C7D2FE;
+  --gray:      #8892B0;
+  --gray2:     #556080;
+
+  --green:     #10B981;
+  --amber:     #F59E0B;
+
+  --border-p:  rgba(124,58,237,0.2);
+  --border-g:  rgba(212,175,55,0.2);
+  --border-dim:rgba(124,58,237,0.08);
+
+  --glass-bg:  rgba(13,17,37,0.7);
+  --glass-bg2: rgba(22,32,58,0.6);
+
+  --shadow-p:  0 20px 60px rgba(124,58,237,0.25);
+  --shadow-g:  0 20px 60px rgba(212,175,55,0.2);
+}
+
+/* ═══════════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════════ */
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+
+::-webkit-scrollbar{width:4px;}
+::-webkit-scrollbar-track{background:var(--bg);}
+::-webkit-scrollbar-thumb{background:var(--purple3);border-radius:4px;}
+::-webkit-scrollbar-thumb:hover{background:var(--purple);}
+::selection{background:rgba(124,58,237,0.3);color:var(--white);}
+
+body{
+  font-family:'Tajawal',sans-serif;
+  background:var(--bg);
+  color:var(--white);
+  overflow-x:hidden;
+  line-height:1.6;
+}
+
+/* ═══════════════════════════════════════════
+   ANIMATED BACKGROUND
+═══════════════════════════════════════════ */
+.bg-scene{
+  position:fixed;inset:0;
+  pointer-events:none;z-index:0;
+  overflow:hidden;
+}
+.bg-orb{
+  position:absolute;
+  border-radius:50%;
+  filter:blur(80px);
+  opacity:0.35;
+  animation:orbFloat 12s ease-in-out infinite alternate;
+}
+.bg-orb-1{
+  width:600px;height:600px;
+  background:radial-gradient(circle,var(--purple3),transparent 70%);
+  top:-100px;right:-150px;
+  animation-delay:0s;
+}
+.bg-orb-2{
+  width:500px;height:500px;
+  background:radial-gradient(circle,rgba(212,175,55,0.4),transparent 70%);
+  bottom:-50px;left:-100px;
+  animation-delay:-4s;
+}
+.bg-orb-3{
+  width:300px;height:300px;
+  background:radial-gradient(circle,rgba(59,130,246,0.3),transparent 70%);
+  top:40%;left:40%;
+  animation-delay:-8s;
+}
+@keyframes orbFloat{
+  0%{transform:translate(0,0) scale(1);}
+  100%{transform:translate(40px,30px) scale(1.08);}
+}
+.bg-grid{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(124,58,237,0.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(124,58,237,0.04) 1px,transparent 1px);
+  background-size:64px 64px;
+}
+.bg-grid-fade{
+  position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 50%,transparent 30%,var(--bg) 80%);
+}
+
+/* ═══════════════════════════════════════════
+   NAV
+═══════════════════════════════════════════ */
+nav{
+  position:fixed;top:0;left:0;right:0;
+  z-index:100;
+  padding:14px 5%;
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(8,11,24,0.75);
+  backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+  border-bottom:1px solid var(--border-dim);
+  transition:all 0.4s;
+}
+nav.scrolled{
+  background:rgba(8,11,24,0.95);
+  border-bottom-color:var(--border-p);
+}
+.logo{
+  display:flex;align-items:center;gap:12px;
+  text-decoration:none;
+}
+.logo-icon{
+  width:42px;height:42px;
+  background:linear-gradient(135deg,var(--purple),var(--purple3));
+  border-radius:12px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.3rem;font-weight:900;
+  color:var(--gold);
+  font-family:'Tajawal',sans-serif;
+  position:relative;
+  box-shadow:0 4px 20px rgba(124,58,237,0.4);
+}
+.logo-icon::after{
+  content:'';position:absolute;inset:-1px;
+  border-radius:13px;
+  background:linear-gradient(135deg,var(--purple2),var(--gold));
+  z-index:-1;opacity:0.5;
+}
+.logo-text{
+  font-size:1.25rem;font-weight:800;
+  letter-spacing:0.02em;
+}
+.logo-text .hl{
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.nav-links{
+  display:flex;align-items:center;gap:4px;
+  list-style:none;padding:0;margin:0;
+}
+.nav-links li{
+  list-style:none;
+}
+.nav-links a{
+  color:var(--gray);text-decoration:none;
+  font-size:0.88rem;font-weight:500;
+  padding:8px 14px;border-radius:10px;
+  transition:all 0.2s;
+}
+.nav-links a:hover{color:var(--white);background:rgba(124,58,237,0.1);}
+.nav-cta{
+  background:linear-gradient(135deg,var(--purple),var(--purple3))!important;
+  color:var(--white)!important;font-weight:700!important;
+  padding:9px 20px!important;
+  border-radius:10px!important;
+  box-shadow:0 4px 16px rgba(124,58,237,0.35)!important;
+}
+.nav-cta:hover{transform:translateY(-2px)!important;box-shadow:0 8px 24px rgba(124,58,237,0.5)!important;}
+
+.hamburger{
+  display:none;flex-direction:column;gap:5px;
+  cursor:pointer;background:none;border:none;padding:4px;
+}
+.hamburger span{
+  display:block;width:26px;height:2px;
+  background:var(--white2);border-radius:2px;transition:all 0.3s;
+}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;transform:scaleX(0);}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+.mobile-menu{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:24px;
+  position:fixed;inset:0;
+  background:rgba(8,11,24,0.98);
+  backdrop-filter:blur(20px);
+  z-index:99;
+  opacity:0;visibility:hidden;transform:scale(0.96);
+  transition:all 0.3s cubic-bezier(0.23,1,0.32,1);
+  padding:80px 24px;
+}
+.mobile-menu.open{opacity:1;visibility:visible;transform:scale(1);}
+.mobile-menu a{
+  color:var(--white);text-decoration:none;
+  font-size:1.25rem;font-weight:700;
+  padding:10px 32px;border-radius:12px;
+  transition:all 0.2s;
+  border:1px solid transparent;
+}
+.mobile-menu a:hover{color:var(--gold2);border-color:var(--border-g);background:var(--gold-dim);}
+.mobile-menu-cta{
+  background:linear-gradient(135deg,var(--purple),var(--purple3))!important;
+  color:white!important;
+  border:none!important;
+  font-size:1.1rem!important;
+  padding:14px 48px!important;
+  box-shadow:0 4px 20px rgba(124,58,237,0.4)!important;
+  margin-top:8px;
+}
+
+/* ═══════════════════════════════════════════
+   HERO
+═══════════════════════════════════════════ */
+.hero{
+  min-height:100vh;
+  display:flex;align-items:center;justify-content:center;
+  padding:120px 5% 80px;
+  position:relative;z-index:1;
+  text-align:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  background:rgba(212,175,55,0.08);
+  border:1px solid rgba(212,175,55,0.3);
+  color:var(--gold2);
+  padding:7px 18px;border-radius:50px;
+  font-size:0.84rem;font-weight:700;
+  margin-bottom:30px;
+  animation:fadeUp 0.6s ease both;
+  letter-spacing:0.03em;
+}
+.eyebrow-dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--gold);
+  animation:glow 2s ease-in-out infinite;
+}
+@keyframes glow{
+  0%,100%{box-shadow:0 0 0 0 rgba(212,175,55,0.6);}
+  50%{box-shadow:0 0 0 6px rgba(212,175,55,0);}
+}
+
+h1.hero-title{
+  font-size:clamp(2.4rem,5.5vw,4.4rem);
+  font-weight:900;line-height:1.15;
+  margin-bottom:24px;
+  letter-spacing:-0.02em;
+  animation:fadeUp 0.7s 0.1s ease both;
+}
+.hero-title .hl-purple{
+  background:linear-gradient(135deg,var(--purple2),#C084FC);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.hero-title .hl-gold{
+  background:linear-gradient(135deg,var(--gold),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.hero-title .hl-underline{
+  position:relative;display:inline-block;
+}
+.hero-title .hl-underline::after{
+  content:'';
+  position:absolute;bottom:-4px;left:0;right:0;
+  height:3px;
+  background:linear-gradient(90deg,var(--purple2),var(--gold));
+  border-radius:3px;
+  animation:lineGrow 0.8s 0.6s ease both;
+  transform-origin:right;
+}
+@keyframes lineGrow{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+
+.hero-sub{
+  color:var(--gray);
+  font-size:1.1rem;
+  max-width:620px;
+  margin:0 auto 42px;
+  line-height:1.9;
+  animation:fadeUp 0.7s 0.2s ease both;
+}
+.hero-sub strong{color:var(--white2);}
+
+.hero-btns{
+  display:flex;gap:16px;justify-content:center;flex-wrap:wrap;
+  animation:fadeUp 0.7s 0.3s ease both;
+  margin-bottom:56px;
+}
+
+/* Buttons */
+.btn-primary{
+  display:inline-flex;align-items:center;gap:9px;
+  background:linear-gradient(135deg,var(--purple),var(--purple3));
+  color:white;padding:15px 32px;border-radius:12px;
+  text-decoration:none;font-weight:700;font-size:1rem;
+  transition:all 0.3s cubic-bezier(0.23,1,0.32,1);
+  box-shadow:0 6px 28px rgba(124,58,237,0.4);
+  border:1px solid rgba(124,58,237,0.3);
+  position:relative;overflow:hidden;
+}
+.btn-primary::before{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(135deg,var(--purple2),var(--purple));
+  opacity:0;transition:opacity 0.3s;
+}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(124,58,237,0.55);}
+.btn-primary:hover::before{opacity:1;}
+.btn-primary span{position:relative;z-index:1;}
+
+.btn-gold{
+  display:inline-flex;align-items:center;gap:9px;
+  background:linear-gradient(135deg,var(--gold3),var(--gold));
+  color:#080B18;padding:15px 32px;border-radius:12px;
+  text-decoration:none;font-weight:800;font-size:1rem;
+  transition:all 0.3s;
+  box-shadow:0 6px 28px rgba(212,175,55,0.3);
+}
+.btn-gold:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(212,175,55,0.45);}
+
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:9px;
+  background:var(--glass-bg);
+  border:1px solid var(--border-p);
+  color:var(--white2);padding:15px 28px;border-radius:12px;
+  text-decoration:none;font-weight:600;font-size:0.95rem;
+  transition:all 0.3s;
+  backdrop-filter:blur(12px);
+}
+.btn-ghost:hover{border-color:var(--purple2);color:var(--white);background:rgba(124,58,237,0.12);transform:translateY(-2px);}
+
+.btn-wa{
+  display:inline-flex;align-items:center;gap:9px;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;padding:15px 32px;border-radius:12px;
+  text-decoration:none;font-weight:700;font-size:1rem;
+  transition:all 0.3s;
+  box-shadow:0 6px 24px rgba(37,211,102,0.3);
+}
+.btn-wa:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(37,211,102,0.45);}
+
+.hero-trust{
+  display:flex;gap:28px;justify-content:center;flex-wrap:wrap;
+  animation:fadeUp 0.7s 0.4s ease both;
+}
+.hero-trust-item{
+  display:flex;align-items:center;gap:7px;
+  color:var(--gray);font-size:0.85rem;
+}
+.hero-trust-item .check{
+  width:20px;height:20px;border-radius:50%;
+  background:rgba(16,185,129,0.15);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--green);font-size:0.7rem;
+  flex-shrink:0;
+}
+
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(28px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* Scroll indicator */
+.scroll-cue{
+  position:absolute;bottom:36px;left:50%;
+  transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:6px;
+  animation:fadeUp 1s 0.8s ease both;
+}
+.scroll-cue-line{
+  width:1px;height:48px;
+  background:linear-gradient(to bottom,var(--purple),transparent);
+  animation:scrollLine 1.8s ease-in-out infinite;
+}
+@keyframes scrollLine{
+  0%{transform:scaleY(0);transform-origin:top;}
+  50%{transform:scaleY(1);transform-origin:top;}
+  51%{transform:scaleY(1);transform-origin:bottom;}
+  100%{transform:scaleY(0);transform-origin:bottom;}
+}
+.scroll-cue-text{
+  font-size:0.7rem;letter-spacing:3px;
+  text-transform:uppercase;color:var(--gray2);font-weight:600;
+}
+
+/* ═══════════════════════════════════════════
+   STATS BAR
+═══════════════════════════════════════════ */
+.stats-bar{
+  position:relative;z-index:1;
+  padding:0 5%;
+}
+.stats-inner{
+  background:var(--glass-bg);
+  backdrop-filter:blur(20px);
+  border:1px solid var(--border-p);
+  border-radius:20px;
+  padding:32px 20px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+  gap:12px;
+  text-align:center;
+  max-width:1000px;
+  margin:0 auto;
+  box-shadow:var(--shadow-p);
+}
+.stat-item{position:relative;}
+.stat-item:not(:last-child)::after{
+  content:'';
+  position:absolute;top:15%;right:0;bottom:15%;
+  width:1px;
+  background:linear-gradient(to bottom,transparent,var(--border-p),transparent);
+}
+.stat-num{
+  font-family:'JetBrains Mono',monospace;
+  font-size:2.2rem;font-weight:700;
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  display:block;line-height:1.1;
+}
+.stat-label{color:var(--gray);font-size:0.82rem;margin-top:5px;}
+
+/* ═══════════════════════════════════════════
+   SECTION UTILITIES
+═══════════════════════════════════════════ */
+section{position:relative;z-index:1;}
+.section-wrap{max-width:1180px;margin:0 auto;}
+.section-head{text-align:center;margin-bottom:64px;}
+.section-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:'JetBrains Mono',monospace;
+  font-size:0.72rem;font-weight:700;
+  color:var(--gold);
+  letter-spacing:4px;text-transform:uppercase;
+  margin-bottom:16px;
+  background:var(--gold-dim);
+  border:1px solid rgba(212,175,55,0.25);
+  padding:5px 14px;border-radius:50px;
+}
+.section-eyebrow::before{content:'◆';font-size:0.6rem;}
+.section-title{
+  font-size:clamp(1.7rem,3vw,2.6rem);
+  font-weight:800;line-height:1.25;
+  letter-spacing:-0.02em;
+  margin-bottom:14px;
+}
+.section-title .accent{
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.section-desc{
+  color:var(--gray);font-size:1rem;line-height:1.8;
+  max-width:580px;margin:0 auto;
+}
+
+/* ═══════════════════════════════════════════
+   SERVICES
+═══════════════════════════════════════════ */
+#services{padding:110px 5%;}
+.services-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+  gap:22px;
+}
+.service-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:20px;
+  padding:34px 30px;
+  position:relative;overflow:hidden;
+  transition:all 0.4s cubic-bezier(0.23,1,0.32,1);
+  backdrop-filter:blur(12px);
+}
+.service-card-glow{
+  position:absolute;top:0;left:0;right:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--purple),transparent);
+  opacity:0;transition:opacity 0.3s;
+}
+.service-card:hover{
+  border-color:var(--border-p);
+  transform:translateY(-8px);
+  box-shadow:0 24px 60px rgba(0,0,0,0.5),0 0 40px rgba(124,58,237,0.08);
+}
+.service-card:hover .service-card-glow{opacity:1;}
+.service-card-icon{
+  width:54px;height:54px;
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.5rem;
+  margin-bottom:20px;
+  border:1px solid var(--border-p);
+  background:linear-gradient(135deg,rgba(124,58,237,0.12),rgba(124,58,237,0.04));
+  position:relative;z-index:1;
+}
+.service-card-icon.gold{
+  border-color:var(--border-g);
+  background:linear-gradient(135deg,rgba(212,175,55,0.12),rgba(212,175,55,0.04));
+}
+.service-card h3{
+  font-weight:800;font-size:1.08rem;
+  margin-bottom:10px;
+  position:relative;z-index:1;
+}
+.service-card p{
+  color:var(--gray);font-size:0.88rem;
+  line-height:1.75;margin-bottom:20px;
+  position:relative;z-index:1;
+}
+.service-tag{
+  display:inline-flex;align-items:center;gap:5px;
+  background:rgba(124,58,237,0.1);
+  border:1px solid var(--border-p);
+  color:var(--purple2);
+  padding:4px 12px;border-radius:50px;
+  font-size:0.75rem;font-weight:700;
+}
+.service-tag.gold-tag{
+  background:var(--gold-dim);
+  border-color:var(--border-g);
+  color:var(--gold2);
+}
+.new-badge{
+  position:absolute;top:18px;right:18px;
+  background:linear-gradient(135deg,var(--gold3),var(--gold));
+  color:#080B18;
+  padding:3px 10px;border-radius:50px;
+  font-size:0.72rem;font-weight:800;
+  letter-spacing:0.5px;
+}
+
+/* ═══════════════════════════════════════════
+   PRICING
+═══════════════════════════════════════════ */
+#pricing{padding:110px 5%;background:var(--bg2);}
+.pricing-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(268px,1fr));
+  gap:24px;
+  max-width:1180px;margin:0 auto;
+  align-items:start;
+}
+.price-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:22px;
+  padding:38px 32px;
+  position:relative;overflow:hidden;
+  transition:all 0.4s;
+  backdrop-filter:blur(16px);
+}
+.price-card:hover{
+  border-color:var(--border-p);
+  transform:translateY(-8px);
+  box-shadow:var(--shadow-p);
+}
+.price-card.featured{
+  border-color:var(--border-p);
+  background:linear-gradient(160deg,rgba(28,40,69,0.9),rgba(13,17,37,0.95));
+}
+.price-card.featured::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--purple3),var(--purple2),var(--gold));
+}
+.price-card.job-card{
+  border-color:rgba(212,175,55,0.3);
+  background:linear-gradient(160deg,rgba(28,24,12,0.9),rgba(8,11,24,0.95));
+  grid-column:1/-1;
+}
+.price-card.job-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--gold3),var(--gold2),var(--purple2));
+}
+.price-popular{
+  position:absolute;top:20px;right:20px;
+  background:linear-gradient(135deg,var(--purple),var(--purple3));
+  color:white;font-size:0.72rem;font-weight:800;
+  padding:4px 12px;border-radius:50px;
+  box-shadow:0 4px 12px rgba(124,58,237,0.35);
+}
+.price-hot{
+  position:absolute;top:20px;right:20px;
+  background:linear-gradient(135deg,var(--gold3),var(--gold));
+  color:#080B18;font-size:0.72rem;font-weight:800;
+  padding:4px 12px;border-radius:50px;
+}
+.price-icon-wrap{
+  width:56px;height:56px;
+  border-radius:14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.6rem;margin-bottom:18px;
+}
+.price-icon-p{
+  background:linear-gradient(135deg,rgba(124,58,237,0.2),rgba(124,58,237,0.05));
+  border:1px solid var(--border-p);
+}
+.price-icon-g{
+  background:linear-gradient(135deg,rgba(212,175,55,0.2),rgba(212,175,55,0.05));
+  border:1px solid var(--border-g);
+}
+.price-name{font-weight:800;font-size:1.1rem;margin-bottom:6px;}
+.price-desc{color:var(--gray);font-size:0.86rem;line-height:1.65;margin-bottom:22px;}
+.price-old{
+  color:var(--gray2);font-size:0.85rem;
+  text-decoration:line-through;
+  font-family:'JetBrains Mono',monospace;
+  display:block;margin-bottom:4px;
+}
+.price-amount{
+  font-family:'JetBrains Mono',monospace;
+  font-size:2.8rem;font-weight:700;
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  display:block;line-height:1;margin-bottom:4px;
+}
+.price-amount .curr{font-size:1rem;vertical-align:super;}
+.price-period{color:var(--gray);font-size:0.8rem;display:block;margin-bottom:6px;}
+.price-save{
+  display:inline-block;
+  background:rgba(16,185,129,0.12);
+  border:1px solid rgba(16,185,129,0.25);
+  color:var(--green);
+  font-size:0.75rem;font-weight:700;
+  padding:3px 10px;border-radius:50px;margin-bottom:22px;
+}
+.price-divider{
+  width:100%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--border-p),transparent);
+  margin:20px 0;
+}
+.price-features{list-style:none;margin-bottom:26px;}
+.price-features li{
+  display:flex;align-items:flex-start;gap:10px;
+  font-size:0.88rem;color:var(--white2);
+  padding:6px 0;
+  border-bottom:1px solid var(--border-dim);
+}
+.price-features li:last-child{border-bottom:none;}
+.tick{
+  width:20px;height:20px;
+  border-radius:6px;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-size:0.65rem;font-weight:700;
+  margin-top:2px;
+}
+.tick-p{background:rgba(124,58,237,0.15);color:var(--purple2);}
+.tick-g{background:rgba(212,175,55,0.15);color:var(--gold2);}
+.price-btn{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;
+  background:linear-gradient(135deg,var(--purple),var(--purple3));
+  color:white;padding:14px;border-radius:12px;
+  text-decoration:none;font-weight:700;font-size:0.95rem;
+  transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(124,58,237,0.3);
+  border:1px solid rgba(124,58,237,0.2);
+}
+.price-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(124,58,237,0.5);}
+.price-btn-gold{
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;
+  background:linear-gradient(135deg,var(--gold3),var(--gold));
+  color:#080B18;padding:14px;border-radius:12px;
+  text-decoration:none;font-weight:800;font-size:0.95rem;
+  transition:all 0.3s;
+  box-shadow:0 4px 20px rgba(212,175,55,0.25);
+}
+.price-btn-gold:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(212,175,55,0.45);}
+
+/* Job card layout */
+.job-card-inner{
+  display:grid;grid-template-columns:1fr 1fr;gap:40px;
+  align-items:start;
+}
+@media(max-width:768px){
+  .job-card-inner{grid-template-columns:1fr;}
+}
+
+/* ═══════════════════════════════════════════
+   SPECIALTIES
+═══════════════════════════════════════════ */
+#specialties{padding:110px 5%;}
+.spec-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(210px,1fr));
+  gap:14px;
+}
+.spec-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:16px;
+  padding:22px 18px;
+  text-align:center;
+  transition:all 0.3s;
+  cursor:default;
+  backdrop-filter:blur(8px);
+}
+.spec-card:hover{
+  border-color:var(--border-p);
+  background:rgba(124,58,237,0.06);
+  transform:translateY(-5px);
+  box-shadow:0 12px 30px rgba(124,58,237,0.12);
+}
+.spec-emoji{font-size:2.4rem;display:block;margin-bottom:10px;}
+.spec-card h4{font-weight:700;font-size:0.92rem;margin-bottom:5px;}
+.spec-card p{color:var(--gray);font-size:0.8rem;line-height:1.6;}
+
+/* ═══════════════════════════════════════════
+   ARAB WORLD
+═══════════════════════════════════════════ */
+#arab-world{padding:110px 5%;background:var(--bg2);}
+.countries-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));
+  gap:16px;
+}
+.country-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:16px;padding:22px 18px;
+  text-align:center;transition:all 0.3s;
+  backdrop-filter:blur(8px);
+}
+.country-card:hover{
+  border-color:var(--border-g);
+  transform:translateY(-5px);
+  box-shadow:0 12px 30px rgba(212,175,55,0.1);
+}
+.country-flag{font-size:2.4rem;display:block;margin-bottom:8px;}
+.country-card h4{font-weight:700;font-size:0.92rem;margin-bottom:4px;}
+.country-card p{color:var(--gray);font-size:0.8rem;line-height:1.5;}
+
+/* ═══════════════════════════════════════════
+   TESTIMONIALS
+═══════════════════════════════════════════ */
+#testimonials{padding:110px 5%;}
+.testimonials-grid{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(295px,1fr));
+  gap:22px;
+}
+.tcard{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:20px;padding:30px;
+  transition:all 0.3s;
+  position:relative;
+  backdrop-filter:blur(12px);
+}
+.tcard:hover{
+  border-color:var(--border-p);
+  transform:translateY(-5px);
+  box-shadow:0 16px 40px rgba(0,0,0,0.4);
+}
+.tcard-quote{
+  font-size:2.5rem;line-height:1;
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:10px;
+  display:block;
+}
+.tcard-stars{
+  color:var(--gold);font-size:0.95rem;
+  letter-spacing:2px;margin-bottom:14px;
+}
+.tcard p{
+  color:var(--white2);font-size:0.9rem;
+  line-height:1.8;margin-bottom:20px;
+  font-style:italic;
+}
+.tcard-author{
+  display:flex;align-items:center;gap:12px;
+  border-top:1px solid var(--border-dim);
+  padding-top:16px;
+}
+.tcard-avatar{
+  width:42px;height:42px;border-radius:50%;
+  background:linear-gradient(135deg,var(--purple),var(--purple3));
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.1rem;flex-shrink:0;
+}
+.tcard-name{font-weight:700;font-size:0.9rem;}
+.tcard-role{color:var(--purple2);font-size:0.78rem;margin-top:2px;}
+
+/* ═══════════════════════════════════════════
+   TEAM / ABOUT
+═══════════════════════════════════════════ */
+#about{padding:110px 5%;background:var(--bg2);}
+.team-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+  gap:24px;margin-bottom:56px;
+}
+.team-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:22px;padding:32px 26px;
+  text-align:center;
+  transition:all 0.4s;
+  position:relative;overflow:hidden;
+  backdrop-filter:blur(12px);
+}
+.team-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  opacity:0;transition:opacity 0.3s;
+}
+.team-card.tc-purple::before{background:linear-gradient(90deg,var(--purple),var(--purple2));}
+.team-card.tc-pink::before{background:linear-gradient(90deg,#be185d,#ec4899);}
+.team-card.tc-gold::before{background:linear-gradient(90deg,var(--gold3),var(--gold2));}
+.team-card:hover{transform:translateY(-8px);border-color:var(--border-p);}
+.team-card:hover::before{opacity:1;}
+.team-avatar{
+  width:80px;height:80px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-size:2.2rem;margin:0 auto 18px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.3);
+}
+.ta-purple{background:linear-gradient(135deg,var(--purple),var(--purple3));}
+.ta-pink{background:linear-gradient(135deg,#be185d,#9d174d);}
+.ta-gold{background:linear-gradient(135deg,var(--gold3),var(--gold));}
+.team-name{font-weight:800;font-size:1.05rem;margin-bottom:4px;}
+.team-role{font-size:0.82rem;font-weight:700;margin-bottom:12px;}
+.tr-purple{color:var(--purple2);}
+.tr-pink{color:#f472b6;}
+.tr-gold{color:var(--gold2);}
+.team-desc{color:var(--gray);font-size:0.85rem;line-height:1.7;margin-bottom:18px;}
+.team-contact{
+  display:flex;align-items:center;justify-content:center;gap:7px;
+  padding:10px;border-radius:10px;
+  text-decoration:none;font-size:0.83rem;font-weight:700;
+  transition:background 0.2s;
+}
+.tc-p{background:rgba(124,58,237,0.1);border:1px solid var(--border-p);color:var(--purple2);}
+.tc-p:hover{background:rgba(124,58,237,0.2);}
+.tc-k{background:rgba(190,24,93,0.1);border:1px solid rgba(190,24,93,0.3);color:#f472b6;}
+.tc-k:hover{background:rgba(190,24,93,0.2);}
+.tc-g{background:var(--gold-dim);border:1px solid var(--border-g);color:var(--gold2);}
+.tc-g:hover{background:rgba(212,175,55,0.2);}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:16px;
+}
+.why-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:16px;padding:24px 20px;
+  text-align:center;
+  transition:border-color 0.3s;
+  backdrop-filter:blur(8px);
+}
+.why-card:hover{border-color:var(--border-p);}
+.why-icon{font-size:2rem;margin-bottom:10px;display:block;}
+.why-card h4{font-weight:700;font-size:0.92rem;margin-bottom:6px;}
+.why-card p{color:var(--gray);font-size:0.82rem;line-height:1.6;}
+
+/* ═══════════════════════════════════════════
+   FAQ
+═══════════════════════════════════════════ */
+#faq{padding:110px 5%;}
+.faq-list{max-width:780px;margin:0 auto;}
+.faq-item{
+  border:1px solid var(--border-dim);
+  border-radius:16px;margin-bottom:10px;
+  overflow:hidden;transition:border-color 0.3s;
+  backdrop-filter:blur(8px);
+}
+.faq-item.open{border-color:var(--border-p);}
+.faq-q{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 24px;cursor:pointer;
+  font-weight:700;font-size:0.93rem;
+  background:var(--glass-bg);gap:14px;
+  transition:background 0.2s;
+  user-select:none;
+}
+.faq-q:hover{background:var(--glass-bg2);}
+.faq-item.open .faq-q{background:var(--glass-bg2);}
+.faq-icon{
+  width:28px;height:28px;border-radius:8px;
+  background:rgba(124,58,237,0.12);
+  border:1px solid var(--border-p);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--purple2);font-size:0.8rem;
+  flex-shrink:0;transition:all 0.3s;
+}
+.faq-item.open .faq-icon{
+  background:var(--purple);
+  color:white;
+  transform:rotate(180deg);
+}
+.faq-a{
+  max-height:0;overflow:hidden;
+  transition:max-height 0.4s ease,padding 0.3s;
+  background:var(--bg);
+  color:var(--gray);font-size:0.9rem;line-height:1.8;
+  padding:0 24px;
+}
+.faq-item.open .faq-a{max-height:320px;padding:18px 24px;}
+
+/* ═══════════════════════════════════════════
+   PAYMENT
+═══════════════════════════════════════════ */
+#payment{padding:80px 5%;background:var(--bg2);text-align:center;}
+.payment-cards{
+  display:flex;gap:22px;justify-content:center;flex-wrap:wrap;
+  margin-top:44px;
+}
+.pay-card{
+  background:var(--glass-bg);
+  border:1px solid var(--border-dim);
+  border-radius:18px;padding:30px 36px;
+  min-width:230px;transition:all 0.3s;
+  backdrop-filter:blur(12px);
+}
+.pay-card:hover{border-color:var(--border-g);transform:translateY(-5px);box-shadow:var(--shadow-g);}
+.pay-icon{font-size:2.6rem;display:block;margin-bottom:12px;}
+.pay-card h3{font-weight:800;margin-bottom:6px;}
+.pay-card p{color:var(--gray);font-size:0.85rem;margin-bottom:14px;}
+.pay-num{
+  background:var(--gold-dim);
+  border:1px solid var(--border-g);
+  color:var(--gold2);
+  padding:9px 18px;border-radius:10px;
+  font-family:'JetBrains Mono',monospace;font-size:0.92rem;
+  cursor:pointer;transition:all 0.2s;display:inline-block;
+}
+.pay-num:hover{background:rgba(212,175,55,0.2);}
+
+/* ═══════════════════════════════════════════
+   CTA SECTION
+═══════════════════════════════════════════ */
+.cta-section{
+  padding:110px 5%;
+  background:var(--bg3);
+  border-top:1px solid var(--border-dim);
+  border-bottom:1px solid var(--border-dim);
+  text-align:center;
+  position:relative;overflow:hidden;
+}
+.cta-section::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 30% 50%,rgba(124,58,237,0.06),transparent 60%),
+             radial-gradient(ellipse at 70% 50%,rgba(212,175,55,0.04),transparent 60%);
+  pointer-events:none;
+}
+.cta-btns{
+  display:flex;gap:18px;justify-content:center;flex-wrap:wrap;
+  margin-top:36px;
+}
+.wa-card{
+  display:flex;flex-direction:column;align-items:center;gap:5px;
+  padding:20px 30px;border-radius:16px;
+  text-decoration:none;font-weight:700;
+  transition:all 0.3s;min-width:230px;
+}
+.wa-card-green{
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;box-shadow:0 6px 24px rgba(37,211,102,0.25);
+}
+.wa-card-green:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(37,211,102,0.4);}
+.wa-card-blue{
+  background:linear-gradient(135deg,#1d4ed8,#1e40af);
+  color:white;box-shadow:0 6px 24px rgba(29,78,216,0.25);
+}
+.wa-card-blue:hover{transform:translateY(-4px);box-shadow:0 12px 36px rgba(29,78,216,0.4);}
+.wa-name{font-size:1rem;}
+.wa-num{font-size:0.78rem;opacity:0.85;direction:ltr;font-family:'JetBrains Mono',monospace;}
+.wa-spec{font-size:0.74rem;opacity:0.75;}
+
+/* ═══════════════════════════════════════════
+   CONTACT FORM
+═══════════════════════════════════════════ */
+#contact-form{padding:110px 5%;}
+.form-wrap{
+  max-width:620px;margin:0 auto;
+  background:var(--glass-bg);
+  border:1px solid var(--border-p);
+  border-radius:24px;padding:48px 44px;
+  position:relative;overflow:hidden;
+  backdrop-filter:blur(16px);
+  box-shadow:var(--shadow-p);
+}
+.form-wrap::before{
+  content:'';position:absolute;top:-2px;left:20%;right:20%;height:2px;
+  background:linear-gradient(90deg,transparent,var(--purple2),var(--gold),transparent);
+}
+.form-group{margin-bottom:20px;}
+.form-group label{
+  display:block;font-weight:700;font-size:0.88rem;
+  margin-bottom:8px;color:var(--white2);
+  letter-spacing:0.02em;
+}
+.form-group input,
+.form-group select,
+.form-group textarea{
+  width:100%;
+  background:var(--bg);
+  border:1px solid var(--border-dim);
+  border-radius:12px;padding:13px 17px;
+  color:var(--white);
+  font-family:'Tajawal',sans-serif;
+  font-size:0.92rem;
+  transition:border-color 0.3s,box-shadow 0.3s;
+  outline:none;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+  border-color:var(--purple);
+  box-shadow:0 0 0 3px rgba(124,58,237,0.12);
+}
+.form-group select option{background:var(--bg2);}
+.form-group textarea{resize:vertical;min-height:110px;}
+.form-submit{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  width:100%;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  color:white;padding:16px;border-radius:14px;
+  font-weight:800;font-size:1rem;
+  transition:all 0.3s;
+  font-family:'Tajawal',sans-serif;
+  border:none;cursor:pointer;
+  box-shadow:0 6px 24px rgba(37,211,102,0.3);
+}
+.form-submit:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(37,211,102,0.45);}
+.form-note{
+  text-align:center;margin-top:14px;
+  color:var(--gray2);font-size:0.8rem;
+}
+
+/* ═══════════════════════════════════════════
+   FOOTER
+═══════════════════════════════════════════ */
+footer{
+  background:var(--bg2);
+  border-top:1px solid var(--border-dim);
+  padding:56px 5% 32px;
+  text-align:center;
+}
+.footer-logo{font-size:1.7rem;font-weight:900;margin-bottom:10px;}
+.footer-logo .hl{
+  background:linear-gradient(135deg,var(--purple2),var(--gold2));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.footer-tagline{color:var(--gray);font-size:0.88rem;margin-bottom:24px;}
+.footer-links{
+  display:flex;gap:20px;justify-content:center;flex-wrap:wrap;
+  margin:20px 0;
+}
+.footer-links a{
+  color:var(--gray);text-decoration:none;font-size:0.85rem;
+  transition:color 0.2s;
+}
+.footer-links a:hover{color:var(--purple2);}
+.footer-divider{
+  width:100%;height:1px;
+  background:linear-gradient(90deg,transparent,var(--border-p),transparent);
+  margin:24px 0;
+}
+.footer-contacts{
+  display:flex;justify-content:center;gap:24px;flex-wrap:wrap;
+  margin-bottom:18px;
+}
+.footer-contacts a{
+  font-size:0.83rem;color:var(--gray);text-decoration:none;transition:color 0.2s;
+}
+.footer-contacts a:hover{color:var(--gold2);}
+.footer-copy{font-size:0.78rem;color:var(--gray2);}
+
+/* ═══════════════════════════════════════════
+   WA FLOATING BUTTON
+═══════════════════════════════════════════ */
+#waFloat{
+  position:fixed;bottom:28px;right:28px;z-index:200;
+  width:58px;height:58px;
+  background:linear-gradient(135deg,#25D366,#128C7E);
+  border-radius:50%;display:flex;align-items:center;justify-content:center;
+  text-decoration:none;
+  box-shadow:0 6px 28px rgba(37,211,102,0.45);
+  animation:waFloat 2.5s ease-in-out infinite;
+  transition:transform 0.3s;
+}
+#waFloat:hover{transform:scale(1.1);}
+@keyframes waFloat{
+  0%,100%{box-shadow:0 6px 28px rgba(37,211,102,0.45);}
+  50%{box-shadow:0 6px 44px rgba(37,211,102,0.7);}
+}
+
+/* ═══════════════════════════════════════════
+   COPY TOAST
+═══════════════════════════════════════════ */
+.copy-toast{
+  position:fixed;bottom:105px;left:50%;
+  transform:translateX(-50%) translateY(12px);
+  background:var(--bg3);
+  border:1px solid var(--border-p);
+  color:var(--purple2);
+  padding:10px 24px;border-radius:12px;
+  font-size:0.85rem;font-weight:700;
+  opacity:0;transition:all 0.3s;z-index:300;pointer-events:none;
+  backdrop-filter:blur(16px);
+  box-shadow:var(--shadow-p);
+}
+.copy-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+
+/* ═══════════════════════════════════════════
+   SCROLL REVEAL
+═══════════════════════════════════════════ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.reveal-left{opacity:0;transform:translateX(-28px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal-left.visible{opacity:1;transform:translateX(0);}
+.reveal-right{opacity:0;transform:translateX(28px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal-right.visible{opacity:1;transform:translateX(0);}
+.stagger > *{opacity:0;transform:translateY(24px);transition:opacity 0.5s ease,transform 0.5s ease;}
+.stagger.visible > *:nth-child(1){opacity:1;transform:translateY(0);transition-delay:0.05s;}
+.stagger.visible > *:nth-child(2){opacity:1;transform:translateY(0);transition-delay:0.12s;}
+.stagger.visible > *:nth-child(3){opacity:1;transform:translateY(0);transition-delay:0.19s;}
+.stagger.visible > *:nth-child(4){opacity:1;transform:translateY(0);transition-delay:0.26s;}
+.stagger.visible > *:nth-child(5){opacity:1;transform:translateY(0);transition-delay:0.33s;}
+.stagger.visible > *:nth-child(6){opacity:1;transform:translateY(0);transition-delay:0.40s;}
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE
+═══════════════════════════════════════════ */
+@media(max-width:900px){
+  .nav-links{display:none;}
+  .hamburger{display:flex;}
+}
+@media(max-width:640px){
+  .hero-sub{font-size:0.95rem;}
+  .form-wrap{padding:34px 26px;}
+  .stats-inner{grid-template-columns:1fr 1fr;}
+  .stat-item::after{display:none;}
+}
+@media(max-width:380px){
+  .hero-btns{flex-direction:column;align-items:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- Background Scene -->
+<div class="bg-scene">
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <div class="bg-orb bg-orb-3"></div>
+  <div class="bg-grid"></div>
+  <div class="bg-grid-fade"></div>
+</div>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <a href="#" class="logo">
+    <div class="logo-icon">م</div>
+    <div class="logo-text"><span class="hl">مسار</span>ك</div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">الخدمات</a></li>
+    <li><a href="#specialties">تخصصاتنا</a></li>
+    <li><a href="#pricing">الأسعار</a></li>
+    <li><a href="#arab-world">الوطن العربي</a></li>
+    <li><a href="#testimonials">آراء العملاء</a></li>
+    <li><a href="#faq">الأسئلة</a></li>
+    <li><a href="#contact-form" class="nav-cta">🚀 اطلب الآن</a></li>
+  </ul>
+  <button type="button" class="hamburger" id="hamburgerBtn" onclick="toggleMenu()" aria-label="القائمة">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMenu()">🎯 الخدمات</a>
+  <a href="#specialties" onclick="closeMenu()">🗂️ تخصصاتنا</a>
+  <a href="#pricing" onclick="closeMenu()">💰 الأسعار</a>
+  <a href="#arab-world" onclick="closeMenu()">🌍 الوطن العربي</a>
+  <a href="#testimonials" onclick="closeMenu()">⭐ آراء العملاء</a>
+  <a href="#faq" onclick="closeMenu()">❓ الأسئلة</a>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://wa.me/201126104846" target="_blank" onclick="closeMenu()" style="background:rgba(37,211,102,0.12);border:1px solid #25D366;color:#25D366;padding:10px 18px;border-radius:12px;font-weight:700;font-size:0.85rem;text-decoration:none;">💬 مسارك</a>
+    <a href="https://wa.me/201068204700" target="_blank" onclick="closeMenu()" style="background:rgba(124,58,237,0.12);border:1px solid var(--border-p);color:var(--purple2);padding:10px 18px;border-radius:12px;font-weight:700;font-size:0.85rem;text-decoration:none;">💬 خالد</a>
+  </div>
+  <a href="#contact-form" onclick="closeMenu()" class="mobile-menu-cta">🚀 اطلب الآن</a>
+</div>
+
+<main>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div>
+    <div class="hero-eyebrow">
+      <span class="eyebrow-dot"></span>
+      +500 عميل — 95% اجتازوا نظام ATS بنجاح
+    </div>
+    <h1 class="hero-title">
+      <span class="hl-purple">نبني</span> CV احترافي<br>
+      يفتحلك باب أي<br>
+      <span class="hl-gold hl-underline">وظيفة عايزها</span>
+    </h1>
+    <p class="hero-sub">
+      أكتر من <strong>75% من الـ CVs بتتصفّى آلياً</strong> قبل ما يشوفها أي إنسان —
+      إحنا نكتبلك CV متوافق مع ATS + نساعدك تلاقي الوظيفة في 48 ساعة، أو هنرجعلك فلوسك.
+    </p>
+    <div class="hero-btns">
+      <a href="#pricing" class="btn-primary">
+        <span>🔥 اعرض الأسعار</span>
+      </a>
+      <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز استفسر عن خدمات مسارك" target="_blank" class="btn-wa">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+        تواصل واتساب
+      </a>
+      <a href="#services" class="btn-ghost">اكتشف خدماتنا ↓</a>
+    </div>
+    <div class="hero-trust">
+      <div class="hero-trust-item"><div class="check">✓</div> تقييم مجاني فوري</div>
+      <div class="hero-trust-item"><div class="check">✓</div> تسليم خلال 48 ساعة</div>
+      <div class="hero-trust-item"><div class="check">✓</div> ضمان استرداد كامل</div>
+      <div class="hero-trust-item"><div class="check">✓</div> دفع بعد الاتفاق</div>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <div class="scroll-cue-line"></div>
+    <div class="scroll-cue-text">scroll</div>
+  </div>
+</section>
+
+<!-- ═══ STATS ═══ -->
+<div class="stats-bar">
+  <div class="stats-inner reveal">
+    <div class="stat-item">
+      <span class="stat-num">+500</span>
+      <div class="stat-label">عميل راضي</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">95%</span>
+      <div class="stat-label">نسبة تجاوز ATS</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">48h</span>
+      <div class="stat-label">وقت التسليم</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">3×</span>
+      <div class="stat-label">زيادة في المقابلات</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">4.9</span>
+      <div class="stat-label">متوسط التقييم</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">خدماتنا</div>
+      <h2 class="section-title">كل اللي <span class="accent">محتاجه</span> في مكان واحد</h2>
+      <p class="section-desc">من كتابة CV احترافي لتحسين LinkedIn للبحث عن الوظيفة — مسارك معاك في كل خطوة</p>
+    </div>
+    <div class="services-grid stagger reveal">
+      <div class="service-card">
+        <div class="service-card-glow"></div>
+        <div class="service-card-icon">📄</div>
+        <h3>CV من الصفر</h3>
+        <p>سيرة ذاتية احترافية مكتوبة بالكامل من خبير متخصص في مجالك — متوافقة 100% مع نظام ATS ومصممة تجذب انتباه HR في أول 7 ثواني.</p>
+        <span class="service-tag">⚡ تسليم 48 ساعة</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-glow"></div>
+        <div class="service-card-icon">🔧</div>
+        <h3>تحسين CV موجود</h3>
+        <p>CV موجود عندك؟ هنحسّنه يتجاوز فلاتر ATS، يُبرز إنجازاتك بأرقام حقيقية، ويدخل قوائم المرشحين الأوائل.</p>
+        <span class="service-tag">⚡ تسليم 24 ساعة</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-glow"></div>
+        <div class="service-card-icon">✍️</div>
+        <h3>Cover Letter احترافي</h3>
+        <p>خطاب تغطية مخصص لكل وظيفة — يكمّل CV بتاعك ويبرز ليه إنت الأنسب بلغة تجذب مدير التوظيف.</p>
+        <span class="service-tag">من 139 ج</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-glow"></div>
+        <div class="service-card-icon">🔗</div>
+        <h3>تحسين LinkedIn</h3>
+        <p>80% من الـ HR بيبحثوا عنك على LinkedIn — هنحسّن Profile بتاعك عشان يجيبلك فرص من غير ما تدور.</p>
+        <span class="service-tag">مشمول في الباقة الشاملة</span>
+      </div>
+      <div class="service-card">
+        <div class="service-card-glow"></div>
+        <div class="service-card-icon">🎤</div>
+        <h3>تحضير للمقابلة</h3>
+        <p>جلسة استشارة مهنية مع خبير — تتعلم فيها إزاي تجاوب على أصعب الأسئلة وتترك انطباع لا يُنسى.</p>
+        <span class="service-tag">30 دقيقة مع خبير</span>
+      </div>
+      <div class="service-card" style="border-color:rgba(212,175,55,0.2);">
+        <div class="service-card-glow" style="background:linear-gradient(90deg,transparent,var(--gold),transparent);"></div>
+        <span class="new-badge">جديد 🔥</span>
+        <div class="service-card-icon gold">🔍</div>
+        <h3>البحث عن وظايف</h3>
+        <p>بندور عنك على وظايف تناسب مجالك وخبرتك على LinkedIn وباقي المنصات — وبنساعدك تتقدم بـ CV مخصص لكل فرصة.</p>
+        <span class="service-tag gold-tag">ضمن باقة الوظيفة الكاملة</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PRICING ═══ -->
+<section id="pricing">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">الأسعار</div>
+      <h2 class="section-title">اختار <span class="accent">الباقة</span> اللي تناسبك</h2>
+      <p class="section-desc">أسعار واضحة بدون مفاجآت — الدفع بعد الاتفاق على كل التفاصيل</p>
+    </div>
+    <div class="pricing-grid">
+
+      <!-- Card 1: تحسين -->
+      <div class="price-card reveal">
+        <div class="price-icon-wrap price-icon-p">✏️</div>
+        <div class="price-name">تحسين CV</div>
+        <div class="price-desc">CV موجود عندك؟ هنحسّنه يتجاوز ATS ويجذب انتباه HR.</div>
+        <span class="price-old">280 ج</span>
+        <span class="price-amount"><span class="curr">ج </span>179</span>
+        <span class="price-period">تسليم خلال 24 ساعة</span>
+        <span class="price-save">وفّر 101 ج 🎉</span>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="tick tick-p">✓</span>تحسين شامل لكل أقسام الـ CV</li>
+          <li><span class="tick tick-p">✓</span>تحسين الـ Keywords لنظام ATS</li>
+          <li><span class="tick tick-p">✓</span>إعادة صياغة الإنجازات بأرقام</li>
+          <li><span class="tick tick-p">✓</span>تنسيق احترافي محدّث</li>
+          <li><span class="tick tick-p">✓</span>PDF + Word + تعديلان مجانيان</li>
+        </ul>
+        <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز تحسين CV بـ 179 جنيه" target="_blank" class="price-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+          اطلب الآن
+        </a>
+      </div>
+
+      <!-- Card 2: CV من الصفر — FEATURED -->
+      <div class="price-card featured reveal" style="transition-delay:0.1s;">
+        <span class="price-popular">الأكثر طلباً ⭐</span>
+        <div class="price-icon-wrap price-icon-p" style="margin-top:28px;">📄</div>
+        <div class="price-name">CV من الصفر</div>
+        <div class="price-desc">سيرة ذاتية احترافية كاملة من خبير في مجالك — متوافقة 100% مع ATS.</div>
+        <span class="price-old">350 ج</span>
+        <span class="price-amount"><span class="curr">ج </span>249</span>
+        <span class="price-period">تسليم خلال 48 ساعة</span>
+        <span class="price-save">وفّر 101 ج 🎉</span>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="tick tick-p">✓</span>CV مكتوب من الصفر من خبير</li>
+          <li><span class="tick tick-p">✓</span>مقابلة استكشافية على واتساب</li>
+          <li><span class="tick tick-p">✓</span>Summary مهني قوي ومخصص</li>
+          <li><span class="tick tick-p">✓</span>خبرات بأرقام وإنجازات حقيقية</li>
+          <li><span class="tick tick-p">✓</span>تنسيق ATS + تصميم احترافي</li>
+          <li><span class="tick tick-p">✓</span>PDF + Word + تعديلان مجانيان</li>
+        </ul>
+        <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز CV من الصفر بـ 249 جنيه" target="_blank" class="price-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+          اطلب دلوقتي
+        </a>
+      </div>
+
+      <!-- Card 3: الباقة الشاملة -->
+      <div class="price-card reveal" style="transition-delay:0.2s;">
+        <div class="price-icon-wrap price-icon-p">💎</div>
+        <div class="price-name">الباقة الشاملة</div>
+        <div class="price-desc">CV + Cover Letter + تحسين LinkedIn — كل حاجة في باقة واحدة.</div>
+        <span class="price-old">650 ج</span>
+        <span class="price-amount"><span class="curr">ج </span>449</span>
+        <span class="price-period">تسليم خلال 72 ساعة</span>
+        <span class="price-save">وفّر 201 ج 🎉</span>
+        <div class="price-divider"></div>
+        <ul class="price-features">
+          <li><span class="tick tick-p">✓</span>CV احترافي من الصفر</li>
+          <li><span class="tick tick-p">✓</span>Cover Letter مخصص</li>
+          <li><span class="tick tick-p">✓</span>تحسين LinkedIn Profile</li>
+          <li><span class="tick tick-p">✓</span>استراتيجية تقديم للوظايف</li>
+          <li><span class="tick tick-p">✓</span>3 تعديلات مجانية</li>
+          <li><span class="tick tick-p">✓</span>أولوية في الرد والمتابعة</li>
+        </ul>
+        <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز الباقة الشاملة بـ 449 جنيه" target="_blank" class="price-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+          اطلب الباقة
+        </a>
+      </div>
+
+      <!-- Card 4: باقة الوظيفة الكاملة — GOLD -->
+      <div class="price-card job-card reveal">
+        <span class="price-hot">🔥 الأكثر قيمة — جديد</span>
+        <div class="job-card-inner" style="margin-top:28px;">
+          <div>
+            <div class="price-icon-wrap price-icon-g">🎯</div>
+            <div class="price-name" style="font-size:1.3rem;">باقة الوظيفة الكاملة</div>
+            <div class="price-desc" style="font-size:0.92rem;">مش بس هنعملك CV — هنساعدك تلاقي الوظيفة! CV احترافي + بحث عن وظايف + تقديم بـ CV مخصص لكل فرصة + متابعة حتى توصل للمقابلة.</div>
+            <span class="price-old">1000 ج</span>
+            <span class="price-amount" style="font-size:3.4rem;"><span class="curr">ج </span>699</span>
+            <span class="price-period">أسبوع للـ CV + متابعة مستمرة</span>
+            <span class="price-save" style="background:rgba(212,175,55,0.12);border-color:rgba(212,175,55,0.3);color:var(--gold2);">وفّر 301 ج 🎉</span>
+            <div style="margin-top:18px;">
+              <p style="font-size:0.82rem;color:var(--gray2);background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.2);border-radius:10px;padding:10px 14px;">🛡️ ضمان استرداد كامل لو ما حصلتش على مقابلة في 30 يوم</p>
+            </div>
+          </div>
+          <div>
+            <ul class="price-features" style="margin-top:0;margin-bottom:26px;">
+              <li><span class="tick tick-g">✓</span>CV احترافي من الصفر متوافق مع ATS</li>
+              <li><span class="tick tick-g">✓</span>Cover Letter مخصص لكل وظيفة</li>
+              <li><span class="tick tick-g">✓</span>تحسين LinkedIn Profile</li>
+              <li><span class="tick tick-g">✓</span><strong style="color:var(--gold2);">بحث عن 10+ وظايف تناسب خبرتك</strong></li>
+              <li><span class="tick tick-g">✓</span><strong style="color:var(--gold2);">تقديم بـ CV مخصص لكل وظيفة</strong></li>
+              <li><span class="tick tick-g">✓</span>تحضير لمقابلات العمل</li>
+              <li><span class="tick tick-g">✓</span>متابعة مع الـ HR عند الحاجة</li>
+              <li><span class="tick tick-g">✓</span>3 تعديلات مجانية غير محدودة المدة</li>
+            </ul>
+            <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز باقة الوظيفة الكاملة بـ 699 جنيه" target="_blank" class="price-btn-gold" style="font-size:1rem;padding:16px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+              احجز باقة الوظيفة الكاملة
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SPECIALTIES ═══ -->
+<section id="specialties">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">تخصصاتنا</div>
+      <h2 class="section-title">بنكتب CV <span class="accent">لكل المجالات</span></h2>
+      <p class="section-desc">كل خبير عندنا متخصص في قطاع معين — مش شغل جنيريك</p>
+    </div>
+    <div class="spec-grid stagger reveal">
+      <div class="spec-card"><span class="spec-emoji">💻</span><h4>IT والبرمجة</h4><p>مطورين، DevOps، Data Scientists، Cloud</p></div>
+      <div class="spec-card"><span class="spec-emoji">⚙️</span><h4>الهندسة</h4><p>مدني، كهربا، ميكانيكا، كيميا</p></div>
+      <div class="spec-card"><span class="spec-emoji">🏥</span><h4>الطب والصيدلة</h4><p>أطباء، صيادلة، ممرضين، تحاليل</p></div>
+      <div class="spec-card"><span class="spec-emoji">📊</span><h4>المالية والمحاسبة</h4><p>محاسبين، مراجعين، محللين ماليين</p></div>
+      <div class="spec-card"><span class="spec-emoji">📣</span><h4>التسويق والمبيعات</h4><p>Digital Marketing, Brand, Sales</p></div>
+      <div class="spec-card"><span class="spec-emoji">⚖️</span><h4>القانون</h4><p>محامين، مستشارين قانونيين</p></div>
+      <div class="spec-card"><span class="spec-emoji">🎓</span><h4>خريجين جدد</h4><p>CV قوي حتى بدون خبرة</p></div>
+      <div class="spec-card"><span class="spec-emoji">🌐</span><h4>Remote & خارج مصر</h4><p>أوروبا، كندا، أستراليا، الخليج</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ARAB WORLD ═══ -->
+<section id="arab-world">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">الوطن العربي</div>
+      <h2 class="section-title">نخدم <span class="accent">كل دول</span> الوطن العربي</h2>
+      <p class="section-desc">كل سوق عنده متطلبات مختلفة — بنكيّف CV بتاعك لكل سوق</p>
+    </div>
+    <div class="countries-grid stagger reveal">
+      <div class="country-card"><span class="country-flag">🇪🇬</span><h4>مصر</h4><p>السوق المحلي والشركات متعددة الجنسيات</p></div>
+      <div class="country-card"><span class="country-flag">🇸🇦</span><h4>السعودية</h4><p>رؤية 2030 والمتطلبات الخليجية</p></div>
+      <div class="country-card"><span class="country-flag">🇦🇪</span><h4>الإمارات</h4><p>بيئة دولية متعددة الجنسيات</p></div>
+      <div class="country-card"><span class="country-flag">🇰🇼</span><h4>الكويت</h4><p>سوق العمل الكويتي والخليجي</p></div>
+      <div class="country-card"><span class="country-flag">🇶🇦</span><h4>قطر</h4><p>CV للشركات الدولية في قطر</p></div>
+      <div class="country-card"><span class="country-flag">🌍</span><h4>الخليج والعالم</h4><p>البحرين، عُمان، الأردن، وأوروبا</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TESTIMONIALS ═══ -->
+<section id="testimonials">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">آراء العملاء</div>
+      <h2 class="section-title">+500 عميل <span class="accent">وثق في مسارك</span></h2>
+      <p class="section-desc">مش كلام — ده نتايج حقيقية من ناس حسّنوا CV بتاعهم وحصلوا على وظايفهم</p>
+    </div>
+    <div class="testimonials-grid stagger reveal">
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>CV اتعمل لي في أقل من 48 ساعة — محترف جداً وشكله مختلف تماماً. بعد أسبوع اتصلوا بيا من 3 شركات في نفس الوقت!</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👨</div>
+          <div>
+            <div class="tcard-name">أحمد طارق</div>
+            <div class="tcard-role">مهندس برمجيات — القاهرة</div>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>كنت بعت CV في تقريباً 50 مكان ومحدش رد. بعد ما حسّنوا CV بتاعي، أول أسبوع جالي 4 مقابلات. الفرق واضح جداً.</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👩</div>
+          <div>
+            <div class="tcard-name">منة الله سامي</div>
+            <div class="tcard-role">محاسبة — الإسكندرية</div>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>خريج جديد وكنت خايف CV بتاعي مش هيبقى كافي. الشغل على إبراز مشاريع التخرج كان ممتاز. وصلت لأول وظيفة في شهر.</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👨‍🎓</div>
+          <div>
+            <div class="tcard-name">كريم مصطفى</div>
+            <div class="tcard-role">خريج هندسة — الجيزة</div>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>اشتريت باقة الوظيفة الكاملة — مش بس عملوا CV، فعلاً دوّروا ليا على وظايف وقدمولي عليها. النتيجة مقابلات في شركتين كبار!</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👩‍💼</div>
+          <div>
+            <div class="tcard-name">نورهان أشرف</div>
+            <div class="tcard-role">مديرة تسويق — القاهرة</div>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>كنت عايز CV للسوق السعودي وما كنتش عارف الفرق. عملوا لي CV مخصص للخليج والنتيجة وظيفة في الرياض في 3 أسابيع.</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👷</div>
+          <div>
+            <div class="tcard-name">محمد السيد</div>
+            <div class="tcard-role">مهندس مدني — الرياض</div>
+          </div>
+        </div>
+      </div>
+      <div class="tcard">
+        <span class="tcard-quote">"</span>
+        <div class="tcard-stars">★★★★★</div>
+        <p>خبراء حقيقيين — بيفهموا مجالك ويعرفوا يبرزوا نقاط قوتك. Cover Letter اللي عملوهوا كان الفرق اللي خلى الشركة تتصل أول.</p>
+        <div class="tcard-author">
+          <div class="tcard-avatar">👩‍⚕️</div>
+          <div>
+            <div class="tcard-name">فاطمة حسين</div>
+            <div class="tcard-role">طبيبة — الإمارات</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TEAM ═══ -->
+<section id="about">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">فريقنا</div>
+      <h2 class="section-title">الناس اللي <span class="accent">هتشتغل معاك</span></h2>
+    </div>
+    <div class="team-grid reveal">
+      <div class="team-card tc-purple">
+        <div class="team-avatar ta-purple">👨‍💼</div>
+        <div class="team-name">Khaled Hassan</div>
+        <div class="team-role tr-purple">مؤسس مسارك · خبير CV تقنية وهندسة</div>
+        <div class="team-desc">+200 CV في الـ IT والهندسة والمالية. خبرة في سوق الخليج والعالمي وأنظمة ATS لكبرى الشركات التقنية.</div>
+        <a href="https://wa.me/201068204700?text=السلام عليكم خالد 👋 عايز CV في مجال تقني" target="_blank" class="team-contact tc-p">💬 تواصل مع خالد — IT/هندسة</a>
+      </div>
+      <div class="team-card tc-pink">
+        <div class="team-avatar ta-pink">👩‍💼</div>
+        <div class="team-name">مسارك</div>
+        <div class="team-role tr-pink">خبيرة CV · إدارة وطب وإبداعية</div>
+        <div class="team-desc">+300 CV في الإدارة والطب والقانون والتسويق. خبرة في صياغة CVs بالعربي والإنجليزي لأسواق متعددة.</div>
+        <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز CV في مجال إداري/طبي" target="_blank" class="team-contact tc-k">💬 تواصل — إدارة/طب/قانون</a>
+      </div>
+      <div class="team-card tc-gold">
+        <div class="team-avatar ta-gold">🤝</div>
+        <div class="team-name">فريق الوظايف</div>
+        <div class="team-role tr-gold">بحث عن وظايف · متابعة · دعم</div>
+        <div class="team-desc">فريق متخصص في البحث عن الوظايف على LinkedIn وباقي المنصات — بيدوروا عنك ويتابعوا معك.</div>
+        <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز باقة البحث عن وظايف" target="_blank" class="team-contact tc-g">💬 باقة الوظيفة الكاملة</a>
+      </div>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card"><span class="why-icon">🎯</span><h4>شغل شخصي مش أتوماتيكي</h4><p>كل CV بيتكتب بإيدي خبير حقيقي بيفهم مجالك.</p></div>
+      <div class="why-card"><span class="why-icon">💰</span><h4>أسعار مناسبة للسوق المصري</h4><p>خدمة احترافية بدون مفاجآت — الدفع بعد الاتفاق.</p></div>
+      <div class="why-card"><span class="why-icon">🛡️</span><h4>ضمان استرداد كامل</h4><p>مش راضي بعد التعديلات؟ هنرجعلك فلوسك.</p></div>
+      <div class="why-card"><span class="why-icon">⚡</span><h4>سرعة في التسليم</h4><p>CV جاهز في 48 ساعة — لو مستعجل هنتعاون معاك.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">أسئلة شائعة</div>
+      <h2 class="section-title">كل <span class="accent">أسئلتك</span> هنا 👇</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>💰 كام سعر الخدمة؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">الأسعار بتبدأ من 179 ج للتحسين، 249 ج لـ CV من الصفر، 449 ج للباقة الشاملة (CV + Cover Letter + LinkedIn)، و699 ج لباقة الوظيفة الكاملة (CV + بحث عن وظايف + تقديم). الدفع بعد الاتفاق على كل حاجة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>🔍 إيه هي باقة الوظيفة الكاملة؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">دي أشمل باقة عندنا — بنعملك CV + Cover Letter + LinkedIn، وبعدين فريقنا بيدور لك على 10+ وظايف تناسب مجالك على LinkedIn وباقي المنصات، وبنتقدم نيابةً عنك بـ CV مخصص لكل وظيفة، مع تحضيرك للمقابلات. السعر 699 ج وفيها ضمان استرداد لو ما حصلتش على مقابلة في 30 يوم.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>⏱️ كام وقت التسليم؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">تحسين CV: 24 ساعة. CV من الصفر: 48 ساعة. الباقة الشاملة: 72 ساعة. باقة الوظيفة الكاملة: أسبوع للـ CV + متابعة مستمرة للبحث. لو عندك مقابلة مستعجلة هنتعاون معاك على تسليم أسرع.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>📝 بتكتبوا CV بالعربي ولا الإنجليزي؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">بنكتب بالعربي والإنجليزي وبالاتنين مع بعض لو محتاج. اللغة بتتحدد حسب السوق — شركات محلية: عربي. شركات متعددة الجنسيات أو خليج أو خارج: إنجليزي.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>🔄 كام تعديل مجاني بعد الاستلام؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">تحسين CV وCV من الصفر: تعديلان مجانيان. Cover Letter: تعديل واحد. الباقة الشاملة وباقة الوظيفة الكاملة: 3 تعديلات في 7 أيام من الاستلام.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>💳 إمتى بدفع؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">بعد الاتفاق على التفاصيل والسعر وقبل بدء الشغل. بنقبل فودافون كاش وإنستاباي. مفيش دفع قبل ما تتفق على كل حاجة.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>🎓 أنا خريج جديد ومفيش خبرة — تقدروا تساعدوني؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">أيوه تماماً! بنشتغل على مشاريع التخرج والتدريبات والأنشطة والشهادات الأونلاين. CV الخريج الجديد له استراتيجية خاصة بنتقنها.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q" onclick="toggleFaq(this)"><span>🛡️ إيه هو الضمان بتاعكم؟</span><div class="faq-icon">▾</div></div>
+        <div class="faq-a">بنضمن CV متوافق مع ATS. لو مش راضي بعد التعديلات هنرجعلك فلوسك بالكامل. باقة الوظيفة الكاملة: لو ما حصلتش على مقابلة واحدة في 30 يوم، هنرجعلك فلوسك.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PAYMENT ═══ -->
+<section id="payment">
+  <div class="section-wrap" style="padding:80px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">طرق الدفع</div>
+      <h2 class="section-title">ادفع بسهولة <span class="accent">وأمان</span></h2>
+      <p class="section-desc">بعد الاتفاق على الخدمة، ادفع بأي طريقة مناسبة</p>
+    </div>
+    <div class="payment-cards reveal">
+      <div class="pay-card">
+        <span class="pay-icon">📱</span>
+        <h3>فودافون كاش</h3>
+        <p>حوّل على رقم فودافون كاش مباشرة</p>
+        <div class="pay-num" onclick="copyText('01068204700', this)">01068204700 📋</div>
+      </div>
+      <div class="pay-card">
+        <span class="pay-icon">💳</span>
+        <h3>إنستاباي</h3>
+        <p>ادفع بسهولة عن طريق إنستاباي</p>
+        <div class="pay-num" onclick="copyText('01068204700', this)">01068204700 📋</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CTA ═══ -->
+<section class="cta-section" id="contact">
+  <div style="position:relative;z-index:1;">
+    <div class="section-eyebrow" style="margin:0 auto 16px;">ابدأ الآن</div>
+    <h2 class="section-title" style="font-size:clamp(1.8rem,3vw,2.8rem);">جاهز تغير <span class="accent">مسارك المهني؟</span></h2>
+    <p class="section-desc" style="margin:0 auto 8px;">تواصل مع الخبير المتخصص في مجالك — رد مضمون في أقل من ساعة</p>
+    <div class="cta-btns reveal">
+      <a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز استفسر عن خدمات مسارك" target="_blank" class="wa-card wa-card-green">
+        <div class="wa-name">💬 تواصل مع مسارك</div>
+        <div class="wa-num">+20 112 610 4846</div>
+        <div class="wa-spec">إدارة · طب · قانون · تسويق · إبداعية</div>
+      </a>
+      <a href="https://wa.me/201068204700?text=السلام عليكم خالد 👋 عايز استفسر عن خدمات مسارك" target="_blank" class="wa-card wa-card-blue">
+        <div class="wa-name">💬 تواصل مع خالد</div>
+        <div class="wa-num">+20 106 820 4700</div>
+        <div class="wa-spec">تقنية · هندسة · IT · مالية · علوم</div>
+      </a>
+    </div>
+    <p style="margin-top:20px;color:var(--gray2);font-size:0.86rem;">🤷 مش متأكد تختار مين؟ <a href="#contact-form" style="color:var(--purple2);font-weight:700;text-decoration:none;">املي الفورم وهنوجهك ←</a></p>
+  </div>
+</section>
+
+<!-- ═══ CONTACT FORM ═══ -->
+<section id="contact-form">
+  <div class="section-wrap" style="padding:110px 5%;">
+    <div class="section-head">
+      <div class="section-eyebrow">ابدأ دلوقتي</div>
+      <h2 class="section-title">اطلب خدمتك في <span class="accent">دقيقتين</span> 🚀</h2>
+      <p class="section-desc">اكتب بياناتك وهنتواصل معاك على واتساب فوراً</p>
+    </div>
+    <div class="form-wrap reveal">
+      <div class="form-group">
+        <label for="f-name">الاسم</label>
+        <input type="text" id="f-name" placeholder="اسمك الكامل">
+      </div>
+      <div class="form-group">
+        <label for="f-phone">رقم الواتساب</label>
+        <input type="tel" id="f-phone" placeholder="01XXXXXXXXX">
+      </div>
+      <div class="form-group">
+        <label for="f-service">الخدمة المطلوبة</label>
+        <select id="f-service">
+          <option value="">اختر الخدمة...</option>
+          <option>تحسين CV — 179 ج</option>
+          <option>CV من الصفر — 249 ج</option>
+          <option>الباقة الشاملة (CV + Cover Letter + LinkedIn) — 449 ج</option>
+          <option>باقة الوظيفة الكاملة (CV + بحث + تقديم) — 699 ج</option>
+          <option>Cover Letter فقط — 139 ج</option>
+          <option>تحضير مقابلة عمل</option>
+          <option>استشارة مهنية</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="f-field">مجالك</label>
+        <input type="text" id="f-field" placeholder="مثال: مهندس برمجيات، محاسب، طبيب...">
+      </div>
+      <div class="form-group">
+        <label for="f-note">أي تفاصيل إضافية (اختياري)</label>
+        <textarea id="f-note" placeholder="سنوات خبرتك، السوق المستهدف، أي تفاصيل تساعدنا..."></textarea>
+      </div>
+      <button type="button" class="form-submit" onclick="submitForm()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+        أرسل طلبي على واتساب
+      </button>
+      <p class="form-note">🔒 بياناتك سرية — مش بنشاركها مع أي طرف ثالث</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-logo"><span class="hl">مسار</span>ك</div>
+  <p class="footer-tagline">رقم ١ في كتابة CV احترافي والبحث عن وظايف في مصر والوطن العربي</p>
+  <div class="footer-links">
+    <a href="#services">الخدمات</a>
+    <a href="#pricing">الأسعار</a>
+    <a href="#arab-world">الوطن العربي</a>
+    <a href="#testimonials">آراء العملاء</a>
+    <a href="#faq">الأسئلة</a>
+    <a href="https://www.facebook.com/cvegyptats" target="_blank" rel="noopener">فيسبوك</a>
+    <a href="https://www.instagram.com/cvpr_oo/" target="_blank" rel="noopener">انستجرام</a>
+  </div>
+  <div class="footer-divider"></div>
+  <div class="footer-contacts">
+    <span>📱 <a href="https://wa.me/201126104846">01126104846</a></span>
+    <span>📱 <a href="https://wa.me/201068204700">01068204700</a></span>
+    <span>💳 فودافون كاش / إنستاباي: 01068204700</span>
+  </div>
+  <p class="footer-copy">© 2026 مسارك — جميع الحقوق محفوظة | كل حلم يستحق مساراً يليق بيه ✨</p>
+</footer>
+
+</main>
+
+<!-- WA FLOATING -->
+<a href="https://wa.me/201126104846?text=السلام عليكم 👋 عايز استفسر عن خدمات مسارك" target="_blank" id="waFloat" aria-label="واتساب">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.122.554 4.118 1.525 5.847L.057 23.547a.75.75 0 00.92.92l5.7-1.468A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+</a>
+
+<!-- COPY TOAST -->
+<div class="copy-toast" id="copyToast">تم النسخ ✓</div>
+
+<script>
+// MENU
+function toggleMenu(){
+  const btn=document.getElementById('hamburgerBtn');
+  const menu=document.getElementById('mobileMenu');
+  btn.classList.toggle('open');
+  menu.classList.toggle('open');
+  document.body.style.overflow=menu.classList.contains('open')?'hidden':'';
+}
+function closeMenu(){
+  document.getElementById('hamburgerBtn').classList.remove('open');
+  document.getElementById('mobileMenu').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+// FAQ
+function toggleFaq(el){
+  const item=el.closest('.faq-item');
+  const isOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item.open').forEach(i=>i.classList.remove('open'));
+  if(!isOpen) item.classList.add('open');
+}
+
+// COPY
+function copyText(text, el){
+  navigator.clipboard.writeText(text).catch(()=>{
+    const ta=document.createElement('textarea');
+    ta.value=text;document.body.appendChild(ta);ta.select();
+    document.execCommand('copy');document.body.removeChild(ta);
+  });
+  const toast=document.getElementById('copyToast');
+  toast.classList.add('show');
+  setTimeout(()=>toast.classList.remove('show'),2200);
+}
+
+// FORM SUBMIT
+function submitForm(){
+  const name=document.getElementById('f-name').value.trim();
+  const phone=document.getElementById('f-phone').value.trim();
+  const service=document.getElementById('f-service').value;
+  const field=document.getElementById('f-field').value.trim();
+  const note=document.getElementById('f-note').value.trim();
+  if(!name||!phone){alert('من فضلك اكتب اسمك ورقم واتساب');return;}
+  let msg=`السلام عليكم 👋 عايز أطلب خدمة من مسارك:\n\n👤 الاسم: ${name}\n📱 رقم: ${phone}`;
+  if(service) msg+=`\n🎯 الخدمة: ${service}`;
+  if(field) msg+=`\n💼 المجال: ${field}`;
+  if(note) msg+=`\n📝 ملاحظات: ${note}`;
+  const waNum=(field.toLowerCase().includes('it')||field.includes('برمج')||field.includes('هندس'))?'201068204700':'201126104846';
+  window.open(`https://wa.me/${waNum}?text=${encodeURIComponent(msg)}`,'_blank');
+}
+
+// SCROLL REVEAL
+const revealObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.classList.add('visible');
+      revealObs.unobserve(e.target);
+    }
+  });
+},{threshold:0.1});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.stagger').forEach(el=>revealObs.observe(el));
+
+// NAV SCROLL
+window.addEventListener('scroll',()=>{
+  const nav=document.getElementById('mainNav');
+  nav.classList.toggle('scrolled',window.scrollY>60);
+},{ passive:true });
+
+// Counter animation for stats
+function animateCounter(el, target, duration=2000){
+  const start=performance.now();
+  const isFloat=String(target).includes('.');
+  const update=(time)=>{
+    const elapsed=time-start;
+    const progress=Math.min(elapsed/duration,1);
+    const eased=1-Math.pow(1-progress,3);
+    const current=eased*parseFloat(target);
+    if(isFloat) el.textContent=current.toFixed(1);
+    else el.textContent=Math.round(current).toLocaleString('en');
+    if(progress<1) requestAnimationFrame(update);
+    else el.textContent=target;
+  };
+  requestAnimationFrame(update);
+}
+
+const statsObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.querySelectorAll('.stat-num').forEach(num=>{
+        const raw=num.textContent;
+        const val=parseFloat(raw.replace(/[^0-9.]/g,''));
+        const prefix=raw.includes('+')?'+':'';
+        const suffix=raw.includes('×')?'×':(raw.includes('h')?'h':'');
+        if(!isNaN(val)){
+          const orig=num.textContent;
+          animateCounter({
+            get textContent(){return num.textContent;},
+            set textContent(v){num.textContent=prefix+v+suffix;}
+          },val,1500);
+        }
+      });
+      statsObs.unobserve(e.target);
+    }
+  });
+},{threshold:0.5});
+document.querySelectorAll('.stats-inner').forEach(el=>statsObs.observe(el));
+</script>
+</body>
+</html>
