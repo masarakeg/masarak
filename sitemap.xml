@@ -2,61 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- الصفحة الرئيسية -->
+  <!-- الصفحة الرئيسية — وظيفتك -->
   <url>
     <loc>https://masarakeg.github.io/masarak/</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ar" href="https://masarakeg.github.io/masarak/"/>
   </url>
 
-  <!-- أقسام الصفحة (Single Page App) -->
+  <!-- صفحة CV الخليج -->
+  <url>
+    <loc>https://masarakeg.github.io/masarak/cv-khaleej.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://masarakeg.github.io/masarak/cv-khaleej.html"/>
+  </url>
+
+  <!-- صفحة CV المتخصص -->
+  <url>
+    <loc>https://masarakeg.github.io/masarak/takhsees-cv.html</loc>
+    <lastmod>2026-04-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://masarakeg.github.io/masarak/takhsees-cv.html"/>
+  </url>
+
+  <!-- أقسام الصفحة الرئيسية -->
   <url>
     <loc>https://masarakeg.github.io/masarak/#services</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#pricing</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#specialties</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#arab-world</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#testimonials</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#faq</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
     <loc>https://masarakeg.github.io/masarak/#contact-form</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-04-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
